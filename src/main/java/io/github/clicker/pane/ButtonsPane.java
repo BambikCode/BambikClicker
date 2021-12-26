@@ -28,6 +28,6 @@ public final class ButtonsPane extends Pane {
         clickerButtons[0].setOnMouseReleased(event -> sceneManager.switchScene("left"));
         clickerButtons[1].setOnMouseReleased(event -> sceneManager.switchScene("right"));
         clickerButtons[2].setOnMouseReleased(event -> sceneManager.switchScene("binds"));
-        clickerButtons[3].setOnMouseReleased(event -> sceneManager.switchScene("settings"));
+        clickerButtons[3].setOnMouseReleased(event -> sceneManager.switchScene("informations"));
     }
 }

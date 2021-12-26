@@ -36,7 +36,7 @@ public final class Main extends Application {
         BindsScene bindsScene = new BindsScene(sceneManager, manager);
         sceneManager.addScreen("left", leftClickScene.getScene());
         sceneManager.addScreen("right", rightClickScene.getScene());
-        sceneManager.addScreen("settings", informationsScene.getScene());
+        sceneManager.addScreen("informations", informationsScene.getScene());
         sceneManager.addScreen("binds", bindsScene.getScene());
         stage.setTitle("BambikClicker");
         stage.setResizable(false);
